@@ -206,12 +206,12 @@ public class ProfileActivity extends ActionBarActivity implements OnDataPass,OnA
 							isFav = json.getBoolean("favorited");
 							if (isFav) {
 								//btnFavorite.setTextColor(Color.parseColor("yellow"));
-								Toast.makeText(getApplicationContext(), "Favorited:" + isFav, Toast.LENGTH_SHORT)
-								.show();
+								//Toast.makeText(getApplicationContext(), "Favorited:" + isFav, Toast.LENGTH_SHORT)
+								//.show();
 							} else {
 								//btnFavorite.setTextColor(Color.parseColor("black"));
-								Toast.makeText(getApplicationContext(), "Favorited:" + isFav, Toast.LENGTH_SHORT)
-								.show();
+								//Toast.makeText(getApplicationContext(), "Favorited:" + isFav, Toast.LENGTH_SHORT)
+								//.show();
 							}
 						} catch (JSONException e) {
 							e.printStackTrace();

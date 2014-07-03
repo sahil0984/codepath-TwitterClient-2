@@ -258,8 +258,8 @@ public class DirectMessagesFragment extends Fragment {
 						tmpDMessages.get(i).save();
 					}
 
-					Toast.makeText(getActivity(), "oldestDMessageId " + oldestDmId + ". actual_length " + json.length(), Toast.LENGTH_LONG)
-							.show();
+					//Toast.makeText(getActivity(), "oldestDMessageId " + oldestDmId + ". actual_length " + json.length(), Toast.LENGTH_LONG)
+					//		.show();
 				}
 				
 				@Override

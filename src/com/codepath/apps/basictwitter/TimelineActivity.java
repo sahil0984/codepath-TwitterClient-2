@@ -257,8 +257,8 @@ public class TimelineActivity extends ActionBarActivity implements
 					//fragmentTweetsList.insert(Tweet.fromJSON(json), 0);
 					DirectMessagesFragment dmFragment = (DirectMessagesFragment) getSupportFragmentManager().findFragmentById(R.id.flContainer);
 					dmFragment.insert(DirectMessage.fromJSON(json), 0);
-					Toast.makeText(getApplicationContext(), "Success sending message.", Toast.LENGTH_SHORT)
-					.show();
+					//Toast.makeText(getApplicationContext(), "Success sending message.", Toast.LENGTH_SHORT)
+					//.show();
 				}
 				
 				@Override

@@ -92,8 +92,8 @@ public class HomeTimelineFragment extends TweetsListFragment {
 						tmpTweets.get(i).save();
 					}
 
-					Toast.makeText(getActivity(), "oldestTweetId " + oldestTweetId + ". actual_length " + json.length(), Toast.LENGTH_LONG)
-							.show();
+					//Toast.makeText(getActivity(), "oldestTweetId " + oldestTweetId + ". actual_length " + json.length(), Toast.LENGTH_LONG)
+					//		.show();
 				}
 				
 				@Override

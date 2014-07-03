@@ -88,7 +88,7 @@ public class FollowersListFragment extends FollowxxxListFragment {
 							try {
 								user = User.fromJSON(tmpUsers.getJSONObject(i));
 								followersList.add(user);
-								Toast.makeText(getActivity(), user.getName(), Toast.LENGTH_LONG).show();
+								//Toast.makeText(getActivity(), user.getName(), Toast.LENGTH_LONG).show();
 
 							} catch (Exception e) {
 								e.printStackTrace();
@@ -100,8 +100,8 @@ public class FollowersListFragment extends FollowxxxListFragment {
 
 						refreshComplete();
 
-					Toast.makeText(getActivity(), "Success" + nextCursor, Toast.LENGTH_LONG)
-							.show();
+					//Toast.makeText(getActivity(), "Success" + nextCursor, Toast.LENGTH_LONG)
+					//		.show();
 				}
 				
 				@Override
