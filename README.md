@@ -16,6 +16,7 @@ Week 3 project, Twitter Client (TwitterCafe) with all the required, advanced and
  - User can click on the profile image in any tweet to see another user's profile.
    - User can see picture, tagline, # of followers, # of following, and tweets of clicked user.
    - Profile view should include that user's timeline
+   - Optional: User can view following / followers list through the profile
 
  - Advanced: Robust error handling, check if internet is available, handle error cases, network failures
  - Advanced: When a network request is sent, user sees an indeterminate progress indicator
@@ -28,8 +29,6 @@ Week 3 project, Twitter Client (TwitterCafe) with all the required, advanced and
 
 ###User Stories (Given in assigenment): [Incomplete]
 
- - Optional: User can view following / followers list through the profile
-   - [NOTE]: Implemented but currently debugging for issues. Will updated if it works.
  - Advanced: User can search for tweets matching a particular query and see results
 
 
